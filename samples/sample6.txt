@@ -1,0 +1,188 @@
+CameraLookAt 0 0 0
+CameraLookFrom 0 0 1
+CameraLookUp 0 1 0
+FieldOfView 90
+
+DirectionToLight 0.0 0.0 1.0
+LightColor 1.0 1.0 1.0
+AmbientLight 0.5 0.5 0.5
+BackgroundColor 0.0 0.0 0.0
+
+
+# left sphere
+Sphere
+  Center -1.0 -1.2 -1.2
+  Radius 0.30
+  Kd 0.8
+  Ks 0.1
+  Ka 0.3
+  Od 1.0 1.0 1.0
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+  Refl 0.9
+
+# right sphere
+Sphere
+  Center 0.55 -1.15 -1.05
+  Radius 0.35
+  Kd 0.8
+  Ks 0.1
+  Ka 0.3
+  Od 1.0 1.0 1.0
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+  Refl 0.9
+
+# top_left sphere
+Sphere
+  Center -0.8 1.05 -1.3
+  Radius 0.4
+  Kd 0.8
+  Ks 0.1
+  Ka 0.3
+  Od 1.0 1.0 1.0
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+  Refl 0.9
+
+# top_right sphere
+Sphere
+  Center 1.5 1.5 -2.0
+  Radius 0.5
+  Kd 0.3
+  Ks 0.6
+  Ka 0.1
+  Od 0.5 0.5 0.5
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+  Refl 0.25
+
+# back_up_right triangle
+Triangle
+  -1.5 1.5 -2.0
+  1.5 -1.5 -2.0
+  1.5 1.5 -2.0
+  Kd 0.7
+  Ks 0.2
+  Ka 0.1
+  Od 1.0 1.0 0.702
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# back_down_left triangle
+Triangle
+  -1.5 1.5 -2.0
+  -1.5 -1.5 -2.0
+  1.5 -1.5 -2.0
+  Kd 0.7
+  Ks 0.2
+  Ka 0.1
+  Od 1.0 1.0 0.702
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# left_back triangle
+Triangle
+  -1.5 1.5 -2.0
+  -1.5 1.5 2.0
+  -1.5 -1.5 -2.0
+  Kd 0.1
+  Ks 0.3
+  Ka 0.6
+  Od 0.1176 0.4824 0.1176
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# left_front triangle
+Triangle
+  -1.5 1.5 2.0
+  -1.5 -1.5 2.0
+  -1.5 -1.5 -2.0
+  Kd 0.1
+  Ks 0.3
+  Ka 0.6
+  Od 0.1176 0.4824 0.1176
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# right_back triangle
+Triangle
+  1.5 1.5 -2.0
+  1.5 -1.5 -2.0
+  1.5 1.5 2.0
+  Kd 0.1
+  Ks 0.3
+  Ka 0.6
+  Od 0.4 0.6392 1.0
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# right_front triangle
+Triangle
+  1.5 1.5 2.0
+  1.5 -1.5 -2.0
+  1.5 -1.5 2.0
+  Kd 0.1
+  Ks 0.3
+  Ka 0.6
+  Od 0.4 0.6392 1.0
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# bottom_back triangle
+Triangle
+  1.5 -1.5 2.0
+  1.5 -1.5 -2.0
+  -1.5 -1.5 -2.0
+  Kd 0.1
+  Ks 0.1
+  Ka 0.8
+  Od 0.702 0.0 0.0
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# bottom_front triangle
+Triangle
+  -1.5 -1.5 -2.0
+  -1.5 -1.5 2.0
+  1.5 -1.5 2.0
+  Kd 0.1
+  Ks 0.1
+  Ka 0.8
+  Od 0.702 0.0 0.0
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# top_back triangle
+Triangle
+  1.5 1.5 2.0
+  -1.5 1.5 -2.0
+  1.5 1.5 -2.0
+  Kd 0.05
+  Ks 0.05
+  Ka 0.9
+  Od 1.0 0.4588 0.102
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0
+
+# top_front triangle
+Triangle
+  1.5 1.5 2.0
+  -1.5 1.5 2.0
+  -1.5 1.5 -2.0
+  Kd 0.05
+  Ks 0.05
+  Ka 0.9
+  Od 1.0 0.4588 0.102
+  Os 1.0 1.0 1.0
+  Kgls 8.0
+  Refl 0.0

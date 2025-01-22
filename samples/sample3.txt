@@ -1,0 +1,69 @@
+CameraLookAt 0 0 0
+CameraLookFrom 0 0 1
+CameraLookUp 0 1 0
+FieldOfView 90
+
+DirectionToLight -1.0 1.0 1.0
+LightColor 1.0 1.0 1.0
+AmbientLight 0.0 0.0 0.0
+BackgroundColor 0.2 0.2 0.2
+
+# main body
+Sphere
+  Center 0.0 0.0 -2.977
+  Radius 3.0
+  Kd 0.6
+  Ks 0.3
+  Ka 0.1
+  Od 0.07059 0.0 0.83137
+  Os 1.0 1.0 1.0
+  Kgls 16.0
+  Refl 0.0
+
+# face
+Sphere
+  Center 0.0 -0.2 -2.391
+  Radius 2.5
+  Kd 0.6
+  Ks 0.3
+  Ka 0.1
+  Od 0.30589 0.23922 1.0
+  Os 1.0 1.0 1.0
+  Kgls 16.0
+  Refl 0.0
+
+# left eye
+Sphere
+  Center -1.14 0.9 -0.864
+  Radius 0.7
+  Kd 0.6
+  Ks 0.3
+  Ka 0.1
+  Od 0.0 0.0 0.0
+  Os 1.0 1.0 1.0
+  Kgls 16.0
+  Refl 0.0
+
+# right eye
+Sphere
+  Center 1.14 0.9 -0.864
+  Radius 0.7
+  Kd 0.6
+  Ks 0.3
+  Ka 0.1
+  Od 0.0 0.0 0.0
+  Os 1.0 1.0 1.0
+  Kgls 16.0
+  Refl 0.0
+
+# beak
+Sphere
+  Center 0.033 -0.662 -0.716
+  Radius 1.2808
+  Kd 0.6
+  Ks 0.1
+  Ka 0.3
+  Od 0.94902 0.82353 0.66275
+  Os 1.0 1.0 1.0
+  Kgls 32.0
+  Refl 0.0

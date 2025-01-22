@@ -1,0 +1,21 @@
+CameraLookAt 0 0 0
+CameraLookFrom 0 0 1
+CameraLookUp 0 1 0
+FieldOfView 90
+
+DirectionToLight 0.0 1.0 0.0
+LightColor 1.0 1.0 1.0
+AmbientLight 0.6 0.6 0.6
+BackgroundColor 0.2 0.2 0.2
+
+# purple sphere
+Sphere
+  Center 0.0 0.0 0.0
+  Radius 0.4
+  Kd 0.5
+  Ks 0.1
+  Ka 0.4
+  Od 0.0 1.0 0.0
+  Os 1.0 1.0 1.0
+  Kgls 4.0
+  Refl 0.0
